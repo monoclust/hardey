@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Permissions for the HARDEY floating orb and workspace windows","local":true,"windows":["orb","workspace"],"permissions":["core:default","core:window:allow-minimize","core:window:allow-start-dragging","core:window:allow-show","core:window:allow-hide","core:window:allow-set-focus"]}}

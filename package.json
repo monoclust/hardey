@@ -1,0 +1,11 @@
+{
+  "name": "hardey-desktop-workspace",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "npm --prefix apps/desktop run tauri dev",
+    "build": "npm --prefix apps/desktop run tauri build",
+    "frontend:dev": "npm --prefix apps/desktop run dev",
+    "backend": "cd apps/backend && .venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8765 --reload"
+  }
+}

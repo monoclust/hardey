@@ -1,0 +1,20 @@
+[package]
+name = "hardey"
+version = "0.2.0"
+description = "Hardey — The Floating Lady"
+authors = ["Hardey Project"]
+edition = "2021"
+
+[lib]
+name = "hardey_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-autostart = "2"
+tauri-plugin-notification = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
